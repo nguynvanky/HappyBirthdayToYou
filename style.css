@@ -21,7 +21,7 @@ body {
   opacity: 1;
   visibility: visible;
   position: fixed !important;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   height: 100vh;
   width: 100vw;
   z-index: 900;
@@ -35,23 +35,23 @@ body {
 
 .cube {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   transform-style: preserve-3d;
   animation: rotate 6s linear infinite;
 }
 
 .cube > div {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   opacity: 0.9;
   background: linear-gradient(to right, #09adc8, #001f4e);
 }
 .text {
   font-family: "Edu VIC WA NT Beginner", cursive;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
   color: #ffb0b2 !important;
   text-align: center !important;
