@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background: #feeae9;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.btn {
+  color: white;
+  background-color: pink;
+  font-size: 16px;
+  outline: none;
+  padding: 20px 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cover {
+  opacity: 1;
+  visibility: visible;
+  position: fixed !important;
+  transition: all 0.2s ease-in-out;
+  height: 100vh;
+  width: 100vw;
+  z-index: 900;
+  background-color: #feeae9;
+}
+.container {
+  z-index: 899;
+  perspective: 1000px;
+  perspective-origin: 100% 100%;
+}
+
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 6s linear infinite;
+}
+
+.cube > div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  opacity: 0.9;
+  background: linear-gradient(to right, #09adc8, #001f4e);
+}
+.text {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffb0b2 !important;
+  text-align: center !important;
+}
+.text-center {
+  text-align: center;
+}
+.s1 {
+  background-image: url(assests/0bf3ec1a-0fb7-409b-9fb3-1e2e68ee286a.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: translateZ(100px);
+}
+
+.s2 {
+  background-image: url(assests/6c2a9591-44cc-4c26-a81b-9de2713b2e6a.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.s3 {
+  background-image: url(assests/6e17a693-eaa6-4f49-bfc9-bd8d0cc49a85.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.s4 {
+  background-image: url(assests/749e09ce-9cb7-47d3-8915-114f93f51023.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.s5 {
+  background-image: url(assests/3110eaea-615b-4944-a9a6-10d24c48acfb.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.s6 {
+  background-image: url(assests/bf76367d-368a-48f8-9ddb-245e59d81586.jfif) !important;
+  aspect-ratio: 4/4 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+  }
+}

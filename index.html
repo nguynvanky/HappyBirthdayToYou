@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy birthday Be Quynh Bap</title>
+    <link rel="icon" type="image/png" href="/assests/logo.jpg">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assests/logo.jpg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="">
+    <div id="cover" class="cover">
+        <img src="assests/Happy Birthday Birthday Cake GIF - Happy Birthday Birthday Cake Happy - Discover & Share GIFs.gif"
+            alt="" style="aspect-ratio: 4/4; width: 100vw; height: 100vh; object-fit: contain;">
+        <button class="btn" onclick="play()">Click here</button>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="cube">
+            <div class="s1">
+            </div>
+            <div class="s2"></div>
+            <div class="s3"></div>
+            <div class="s4"></div>
+            <div class="s5"></div>
+            <div class="s6"></div>
+        </div>
+    </div>
+    <div class="text" style="margin-top: 20px;">
+        <h2>From: 17/08/2002</h2>
+        <h2>To: 17/08/2024</h2>
+        <h2>Happy Birthday to U</h2>
+    </div>
+    <div class="text-center">
+        <img src="assests/hi.png" style="width: 70vw; object-fit: cover; aspect-ratio: 4/4;" alt="">
+    </div>
+    <audio style="visibility: hidden;" id="audio" controls>
+        <source src="/assests/sinh-nhat-prod-by-wonderlust.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+<script>
+    $(() => {
+        $(".btn").on("click", function () {
+            var audio = document.getElementById("audio");
+            audio.play();
+            var i = document.getElementById("cover")
+            i.style.visibility = 'hidden';
+            i.style.opacity = '0';
+        });
+    })
+</script>
+
+</html>
