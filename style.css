@@ -232,7 +232,7 @@ body {
   width: 150px;
   height: 150px;
   transform-style: preserve-3d;
-  animation: rotate 10s linear infinite;
+  animation: rotate 15s linear infinite;
 }
 
 .cube > div {
@@ -243,7 +243,7 @@ body {
   background: linear-gradient(to right, #09adc8, #001f4e);
 }
 .text {
-  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+  text-shadow: 3px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
     -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
   font-family: "Edu VIC WA NT Beginner", cursive;
   font-optical-sizing: auto;
@@ -256,7 +256,7 @@ body {
   text-align: center;
 }
 .s1 {
-  background-image: url(assests/0bf3ec1a-0fb7-409b-9fb3-1e2e68ee286a.jfif) !important;
+  background-image: url(assests/26aec4bd-49fc-49c9-8726-9d876d0d5e16.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
@@ -264,7 +264,7 @@ body {
 }
 
 .s2 {
-  background-image: url(assests/6c2a9591-44cc-4c26-a81b-9de2713b2e6a.jfif) !important;
+  background-image: url(assests/195650c9-51c1-4444-b847-7a91268fb8ae.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
@@ -272,7 +272,7 @@ body {
 }
 
 .s3 {
-  background-image: url(assests/6e17a693-eaa6-4f49-bfc9-bd8d0cc49a85.jfif) !important;
+  background-image: url(assests/bf76367d-368a-48f8-9ddb-245e59d81586.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
@@ -280,7 +280,7 @@ body {
 }
 
 .s4 {
-  background-image: url(assests/749e09ce-9cb7-47d3-8915-114f93f51023.jfif) !important;
+  background-image: url(assests/db6218f8-8371-4db0-b5cd-0c8d5d79c0eb.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
@@ -288,7 +288,7 @@ body {
 }
 
 .s5 {
-  background-image: url(assests/3110eaea-615b-4944-a9a6-10d24c48acfb.jfif) !important;
+  background-image: url(assests/f81e43a9-04f8-4d81-8f16-4909f68c1ce1.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
@@ -296,7 +296,7 @@ body {
 }
 
 .s6 {
-  background-image: url(assests/bf76367d-368a-48f8-9ddb-245e59d81586.jfif) !important;
+  background-image: url(assests/qua.jfif) !important;
   aspect-ratio: 4/4 !important;
   background-size: cover !important;
   background-position: center !important;
